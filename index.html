@@ -71,7 +71,8 @@
   .steps strong{color:var(--txt);font-weight:600}
   .steps li{flex-wrap:wrap;align-items:center}
   .steps li>.txt{flex:1;min-width:210px}
-  .dlg{background:#ececed;color:#1d1d1f;border-radius:14px;padding:15px 13px;width:208px;text-align:center;
+  .dlg{background:#ececed;color:#1d1d1f;border-radius:14px;padding:15px 13px;width:208px;min-height:224px;
+    display:flex;flex-direction:column;justify-content:center;text-align:center;
     box-shadow:0 12px 30px rgba(0,0,0,.3);flex:0 0 auto;margin:4px auto}
   .dlg .ic{width:42px;height:42px;margin:0 auto 9px;position:relative}
   .dlg .ic svg{width:42px;height:42px;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
@@ -231,7 +232,7 @@
         <div class="dlg">
           <div class="ic2"><span class="tile"><svg viewBox="0 0 24 24"><path d="M18 11V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2"/><path d="M14 10V4a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2"/><path d="M10 10.5V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/></svg></span><span class="rec"></span></div>
           <div class="t">“Veduta” wants to bypass the window picker</div>
-          <div class="s">…to directly access your screen, on schedule.</div>
+          <div class="s">…to directly access your screen.</div>
           <div class="b go">Allow</div>
           <div class="b">Open System Settings</div>
         </div>
