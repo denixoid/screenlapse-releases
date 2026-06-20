@@ -1,7 +1,7 @@
 # Screenlapse — releases
 
 Public hosting for [Screenlapse](https://github.com/denixoid/screenshot-taker)'s auto-update
-feed and downloads. Served at **https://denixoid.github.io/screenlapse-releases/** via GitHub
+feed and downloads. Served at **https://screenlapse.net/** via GitHub
 Pages.
 
 - `appcast.xml` — the Sparkle update feed the app checks (`SUFeedURL`).
