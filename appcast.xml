@@ -1,14 +1,14 @@
 <?xml version="1.0" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>Veduta</title>
+        <title>Screenlapse</title>
         <item>
             <title>1.0</title>
             <pubDate>Sun, 21 Jun 2026 00:22:42 +0200</pubDate>
             <sparkle:version>202606210021</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://denixoid.github.io/veduta-releases/Veduta-1.0.zip" length="1873214" type="application/octet-stream" sparkle:edSignature="kGaMwsT8+wWB+W0+Jc62vFjHeoogSf9FXrbxtFBvdRp18pzkEMYmO7t/4Jo/skW8pFX9TolR+FFvop2B5C6SBw=="/>
+            <enclosure url="https://denixoid.github.io/screenlapse-releases/Screenlapse-1.0.zip" length="1873214" type="application/octet-stream" sparkle:edSignature="kGaMwsT8+wWB+W0+Jc62vFjHeoogSf9FXrbxtFBvdRp18pzkEMYmO7t/4Jo/skW8pFX9TolR+FFvop2B5C6SBw=="/>
         </item>
         <item>
             <title>1.0</title>
@@ -16,7 +16,7 @@
             <sparkle:version>202606202031</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://denixoid.github.io/veduta-releases/Veduta-1.0.zip" length="1873146" type="application/octet-stream" sparkle:edSignature="69VLVdfBLYEPF/Ptcoka/2WkaDs4UEm0goYdLPfx8g4+6eInVF2P0/XuOZ393bMQnrgscqIDRTcg4K8jlBIPDg=="/>
+            <enclosure url="https://denixoid.github.io/screenlapse-releases/Screenlapse-1.0.zip" length="1873146" type="application/octet-stream" sparkle:edSignature="69VLVdfBLYEPF/Ptcoka/2WkaDs4UEm0goYdLPfx8g4+6eInVF2P0/XuOZ393bMQnrgscqIDRTcg4K8jlBIPDg=="/>
         </item>
         <item>
             <title>1.0</title>
@@ -24,7 +24,7 @@
             <sparkle:version>202606201941</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://denixoid.github.io/veduta-releases/Veduta-1.0.zip" length="1873172" type="application/octet-stream" sparkle:edSignature="acdhbGkokydtC6ygSTpxOPMqu1vlm+aOwZtH5hMzEBjkd3qFBnNg+bIrUQUnQ3RFhSCLMm5NXK7EeTZqSCaNAg=="/>
+            <enclosure url="https://denixoid.github.io/screenlapse-releases/Screenlapse-1.0.zip" length="1873172" type="application/octet-stream" sparkle:edSignature="acdhbGkokydtC6ygSTpxOPMqu1vlm+aOwZtH5hMzEBjkd3qFBnNg+bIrUQUnQ3RFhSCLMm5NXK7EeTZqSCaNAg=="/>
         </item>
     </channel>
 </rss>
