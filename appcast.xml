@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Veduta</title>
+        <link>https://denixoid.github.io/veduta-releases/appcast.xml</link>
+        <description>Updates for Veduta.</description>
+        <!-- Release items are appended here by scripts/release.sh (generate_appcast).
+             An empty channel means "you're up to date". -->
+    </channel>
+</rss>
