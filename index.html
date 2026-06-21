@@ -24,11 +24,13 @@
   nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
   .brand{display:flex;align-items:center;gap:10px;font-weight:600;letter-spacing:-.01em}
   .brand img{width:30px;height:30px}
-  .nav-cta{font-size:.92rem;color:var(--muted);border:1px solid var(--line);padding:.5rem .95rem;border-radius:9px;transition:.18s}
-  .nav-cta:hover{color:var(--txt);border-color:var(--teal)}
-  .nav-right{display:flex;align-items:center;gap:18px}
+  .nav-cta{font-size:.92rem;font-weight:600;color:var(--teal-bright);background:rgba(31,163,154,.1);
+    border:1px solid rgba(43,196,184,.5);padding:.5rem 1.05rem;border-radius:9px;transition:.18s}
+  .nav-cta:hover{background:var(--teal);color:#04100e;border-color:var(--teal)}
+  .nav-right{display:flex;align-items:center;gap:20px}
   .nav-link{font-size:.92rem;color:var(--muted);transition:.18s}
-  .nav-link:hover{color:var(--txt)}
+  .nav-link:hover{color:var(--teal-bright)}
+  @media(max-width:600px){.nav-link{display:none}}   /* keep the phone nav uncramped; Changelog stays in the footer */
   .hero{text-align:center;padding:66px 0 48px;position:relative}
   .hero::before{content:"";position:absolute;top:-92px;left:50%;transform:translateX(-50%);
     width:100vw;height:calc(100% + 210px);z-index:-1;pointer-events:none;
