@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Changelog — Screenlapse</title>
+<meta name="description" content="Release notes for Screenlapse.">
+<style>
+  :root{ --teal:#1FA39A; --teal-bright:#2BC4B8; --bg:#0b1110; --txt:#e9f0ef;
+         --muted:#9fb3b0; --line:rgba(255,255,255,.09); --panel:rgba(255,255,255,.035); }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",sans-serif;
+    background:var(--bg);color:var(--txt);line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:var(--teal-bright);text-decoration:none} a:hover{text-decoration:underline}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px}
+  nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:600;color:var(--txt)}
+  .brand img{width:28px;height:28px}
+  header.h{padding:40px 0 8px}
+  header.h h1{font-size:clamp(2rem,5vw,2.7rem);font-weight:700;letter-spacing:-.02em}
+  header.h p{color:var(--muted);margin-top:8px}
+  main{padding:18px 0 70px}
+  h2.rel{font-size:1.35rem;font-weight:700;letter-spacing:-.01em;margin:38px 0 6px;
+    padding-top:26px;border-top:1px solid var(--line);display:flex;align-items:baseline;
+    gap:12px;flex-wrap:wrap}
+  h2.rel:first-of-type{border-top:none;padding-top:6px}
+  h2.rel .date{color:var(--faint,#6c7d7a);font-size:.85rem;font-weight:500}
+  h3{font-size:.82rem;text-transform:uppercase;letter-spacing:.08em;color:var(--teal);
+    font-weight:700;margin:18px 0 8px}
+  ul{list-style:none;margin:6px 0 14px}
+  li{position:relative;padding-left:20px;color:var(--muted);margin-bottom:7px}
+  li::before{content:"";position:absolute;left:4px;top:11px;width:5px;height:5px;
+    border-radius:50%;background:var(--teal)}
+  p{color:var(--muted);margin:10px 0}
+  code{background:var(--panel);border:1px solid var(--line);padding:.08rem .38rem;
+    border-radius:5px;font-size:.88em;font-family:ui-monospace,Menlo,monospace}
+  footer{border-top:1px solid var(--line);padding:26px 0;color:#6c7d7a;font-size:.85rem;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a class="brand" href="/"><img src="icon.png" alt=""> Screenlapse</a>
+    <a href="/">← Home</a>
+  </nav>
+  <header class="h">
+    <h1>Changelog</h1>
+    <p>Everything that's changed in Screenlapse, newest first.</p>
+  </header>
+  <main>
+<h2 class="rel">Screenlapse 1.0<span class="date">2026-06-21</span></h2>
+<p>First public release.</p>
+<h3>Added</h3>
+<ul>
+<li>Scheduled screen capture on a configurable interval, delivered to a folder you choose — a NAS share or any local folder.</li>
+<li>Reliable delivery: each frame is written to your Mac first, then copied; if the destination goes offline, captures queue locally and upload automatically when it returns.</li>
+<li>Capture all displays separately, a single display, or one stitched panorama — as HEIC, JPEG, or PNG.</li>
+<li>Privacy controls: auto-pause while chosen apps (password managers, banking, …) are frontmost, a global pause hotkey, retention limits, and a free-disk floor.</li>
+<li>Native menu-bar app with a live countdown and capture count, a guided first-run welcome, and a tabbed Settings window.</li>
+<li>Launch at login and automatic, signed updates.</li>
+</ul>
+  </main>
+  <footer>Updates are delivered automatically in‑app · <a href="/">screenlapse.net</a></footer>
+</div>
+</body>
+</html>

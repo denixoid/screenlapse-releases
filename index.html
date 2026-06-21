@@ -26,6 +26,9 @@
   .brand img{width:30px;height:30px}
   .nav-cta{font-size:.92rem;color:var(--muted);border:1px solid var(--line);padding:.5rem .95rem;border-radius:9px;transition:.18s}
   .nav-cta:hover{color:var(--txt);border-color:var(--teal)}
+  .nav-right{display:flex;align-items:center;gap:18px}
+  .nav-link{font-size:.92rem;color:var(--muted);transition:.18s}
+  .nav-link:hover{color:var(--txt)}
   .hero{text-align:center;padding:66px 0 48px;position:relative}
   .hero::before{content:"";position:absolute;top:-92px;left:50%;transform:translateX(-50%);
     width:100vw;height:calc(100% + 210px);z-index:-1;pointer-events:none;
@@ -127,7 +130,10 @@
 <div class="wrap">
   <nav>
     <span class="brand"><img src="icon.png" alt=""> Screenlapse</span>
-    <a class="nav-cta" href="#download">Download</a>
+    <span class="nav-right">
+      <a class="nav-link" href="changelog.html">Changelog</a>
+      <a class="nav-cta" href="#download">Download</a>
+    </span>
   </nav>
 
   <header class="hero">
@@ -270,7 +276,7 @@
 
   <footer>
     <div class="formats">HEIC · JPEG · PNG &nbsp;·&nbsp; all displays, one, or stitched &nbsp;·&nbsp; launch at login &nbsp;·&nbsp; auto-updating</div>
-    <p>Designed &amp; built by <a href="https://github.com/denixoid">Denis Zastanceanu</a> · updates delivered via Sparkle</p>
+    <p><a href="changelog.html">Changelog</a> &nbsp;·&nbsp; Designed &amp; built by <a href="https://github.com/denixoid">Denis Zastanceanu</a> &nbsp;·&nbsp; updates delivered via Sparkle</p>
   </footer>
 </div>
 </body>
