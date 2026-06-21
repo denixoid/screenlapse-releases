@@ -1,39 +1,25 @@
 <?xml version="1.0" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>Veduta</title>
+        <title>Screenlapse</title>
         <item>
             <title>1.0</title>
-            <pubDate>Sun, 21 Jun 2026 09:38:20 +0200</pubDate>
-            <sparkle:version>202606210937</sparkle:version>
+            <pubDate>Sun, 21 Jun 2026 10:29:08 +0200</pubDate>
+            <sparkle:version>202606211028</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://screenlapse.net/Screenlapse-1.0.zip" length="1876920" type="application/octet-stream" sparkle:edSignature="VrSFiyLji8nGgMAQy/KyrbY1qDsHXUOsgxNUMmr0fzZbWLxKShn+QC0r2am5+IC9ukaJOOR9GA0etYD2Q7KIAA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://screenlapse.net/Screenlapse202606210937-202606210021.delta" sparkle:deltaFrom="202606210021" length="374910" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="980464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LY4j8DUrzzk6QLi/WLy+qBkqJFrfgGM17VSm2TiWEz9qXZhKHByJzTFuQXo+KLcUOgQ7WO4uKWNc0JpXmgsSBQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Sun, 21 Jun 2026 09:22:37 +0200</pubDate>
-            <sparkle:version>202606210921</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://screenlapse.net/Screenlapse-1.0.zip" length="1876861" type="application/octet-stream" sparkle:edSignature="z/VTgxwEReh1OfU21Ft0Q8S6i3/s4lFI+qjsYsEaertlg2nRo0YzdgI/IQPjigIUPmkRgNVnQggWh+G0QWIWDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://screenlapse.net/Screenlapse202606210921-202606210021.delta" sparkle:deltaFrom="202606210021" length="374766" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="980464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="83w2/7S+yEs+tYvodky+UmfqqXCodop+ueBWnDv4+eyOO4N59Y5Eifppbdk9EpwWcg2y1xuo9hkRP/LBcjL+Dw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Sun, 21 Jun 2026 09:09:44 +0200</pubDate>
-            <sparkle:version>202606210908</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://screenlapse.net/Screenlapse-1.0.zip" length="1876872" type="application/octet-stream" sparkle:edSignature="/FVmm2n2anyqXO+zFaxMtZP3UJLtfTGjO4q1zYUIg39TpYoCr0myfdGNM/zUtO1BlfzaG+yIbufAw06GX9EPDg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://screenlapse.net/Screenlapse202606210908-202606210021.delta" sparkle:deltaFrom="202606210021" length="373546" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="980464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="d9N121zrR5TWY7+ujBbahAPtRx0A14PemRwI+RaUiF+E7EdgISk2gu1C68dClbeqE90t2zzzT5FGTgfGBxAxDQ=="/>
-            </sparkle:deltas>
+            <description><![CDATA[<h3>Screenlapse 1.0</h3>
+<p><strong>Added</strong></p>
+<ul>
+<li>Scheduled screen capture on a configurable interval, delivered to a folder you choose — a NAS share or any local folder.</li>
+<li>Reliable delivery: each frame is written to your Mac first, then copied; if the destination goes offline, captures queue locally and upload automatically when it returns.</li>
+<li>Capture all displays separately, a single display, or one stitched panorama — as HEIC, JPEG, or PNG.</li>
+<li>Privacy controls: auto-pause while chosen apps (password managers, banking, …) are frontmost, a global pause hotkey, retention limits, and a free-disk floor.</li>
+<li>Native menu-bar app with a live countdown and capture count, a guided first-run welcome, and a tabbed Settings window.</li>
+<li>Launch at login and automatic, signed updates.</li>
+</ul>
+]]></description>
+            <enclosure url="https://screenlapse.net/Screenlapse-1.0.zip" length="1876889" type="application/octet-stream" sparkle:edSignature="jCGOwdHSpnjGG01z5jckPWvDGvwI3lbvNI/Do7+JbQ1nOXidifAOegn7jdSyO6FxwL02BACbaSZp0ypfbRy1Dw=="/>
         </item>
     </channel>
 </rss>
